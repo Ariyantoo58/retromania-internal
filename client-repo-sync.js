@@ -58,7 +58,7 @@ if (list) {
     // worktree checkout
     sh(`git worktree add --force ${tmp} ${ref}`);
 
-    // rewrite author/committer
+    // rewrite author/committerr
     process.chdir(tmp);
     sh(`git filter-branch --force --env-filter '
       export GIT_AUTHOR_NAME="${AUTHOR_NAME}";
