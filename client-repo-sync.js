@@ -2,7 +2,7 @@
 /**
  * Sinkron bare-repo ↔ internal ↔ client (tanpa PAT).
  * Pastikan user Linux yang men-jalan­kan skrip sudah punya:
- *   • SSH key / credential-store yang bisa push-pull ke dua repo fege.
+ *   • SSH key / credential-store yang bisa push-pull ke epo fege.
  */
 
 const { execSync } = require('node:child_process');
