@@ -1,0 +1,12 @@
+{
+  "name": "sync-service",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.3"
+  }
+}
