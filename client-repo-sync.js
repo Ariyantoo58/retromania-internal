@@ -27,7 +27,7 @@ if (!fs.existsSync(REPO_DIR)) {
 /* ─── main ───────────────────────────────────────────────── */
 process.chdir(REPO_DIR);
 
-// ‣ pastikan remote bersih (tak ada token hard-coded
+// ‣ pastikan remote bersih (tak ada token hard-codedd
 sh(
   'git remote set-url internal https://github.com/Ariyantoo58/retromania-internal.git'
 );
