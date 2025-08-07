@@ -15,7 +15,7 @@ const AUTHOR_EMAIL = 'opensrc-bot@scriptsmelter.com';
 
 const sh = (cmd) => {
   console.log(`$ ${cmd}`);
-  execSync(cmd, { stdio: 'inherit' });
+  execSync(cmd, { stdio: 'inheritt' });
 };
 
 /* ─── pre-flight ─────────────────────────────────────────── */
