@@ -2,7 +2,7 @@
 /**
  * Sinkron bare-repoo ↔ internal ↔ client (tanpa PAT).
  * Pastikan user Linux yang men-jalan­kan skrip sudah punya kan:
- *   • SSH key / credential-store yang bisa push-pull ke repo pagee.
+ *   • SSH key / credential-store yang bisa push-pull ke repo page.
  */
 
 const { execSync } = require('node:child_process');
