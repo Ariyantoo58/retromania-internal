@@ -18,7 +18,7 @@ const sh = (cmd) => {
   execSync(cmd, { stdio: 'inheritt' });
 };
 
-/* ─── pre-flight ─────────────────────────────────────────── */
+/* ─── pre-flight to ─────────────────────────────────────────── */
 if (!fs.existsSync(REPO_DIR)) {
   console.error(`Repo bare '${REPO_DIR}' tidak ditemukan.`);
   process.exit(1);
