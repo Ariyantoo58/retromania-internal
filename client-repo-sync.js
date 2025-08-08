@@ -42,7 +42,7 @@ sh('git fetch client   --prune');
 /* 2. commit baru klien → internal (namespace client/*) */
 sh('git push internal refs/remotes/client/*:refs/heads/client/*');
 
-/* 3. branch feat/* internal disalin & disanitasi → victor_* */
+/* 3. branch feat/* internal disalin & disanitasi → victo_* */
 const list = execSync(
   'git for-each-ref --format="%(refname)" refs/remotes/internal/feat'
 )
