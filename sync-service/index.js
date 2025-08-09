@@ -8,7 +8,7 @@ const SYNC = path.resolve(__dirname, '../client-game-sync.js');
 const PORT = process.env.PORT || 4000;
 const app = express();
 
-// helper
+// helper for sync
 const run = (cmd) => execSync(cmd, { stdio: 'inherit' });
 
 app.use(morgan('dev'));
