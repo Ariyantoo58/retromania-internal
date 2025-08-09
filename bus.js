@@ -4,4 +4,4 @@ const testing = () => {
 
 testing();
 
-// ini coodenya
+// ini coodenya bebas ya
