@@ -4,4 +4,4 @@ const testing = () => {
 
 testing();
 
-// ini coodenya bebas ya
+// ini codenya bebas seharusnya
